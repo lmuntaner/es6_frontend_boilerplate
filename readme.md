@@ -27,7 +27,6 @@ Go and check the `index.html` file. You will notice the next script tag:
 ```
 This is requiring the compiled javascript. Just like any other javascript file.
 
-I recommend that if you use write more files, rather than requiring them here. Use the ES6 modules
-to require them inside your `app.js` file. That's better practice.
-
-There is an example.
+I recommend that if you use write more files, rather than requiring them in the html file.
+Use the ES6 modules to require them inside your `app.js` file. That's better practice.
+There is an example in `app.js`.
